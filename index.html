@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Abdullahi Mohamed Muhumed - Full-Stack Developer Portfolio"
+    />
+    <meta name="author" content="Abdullahi Mohamed Muhumed" />
+    <title>Abdullahi Mohamed - Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- ==================== NAVIGATION BAR ==================== -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <!-- Logo -->
+        <a href="#home" class="logo">
+          <div class="logo-icon">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 2L37 12V28L20 38L3 28V12L20 2Z"
+                fill="url(#gradient1)"
+                stroke="url(#gradient2)"
+                stroke-width="2"
+              />
+              <path
+                d="M20 12L28 17V27L20 32L12 27V17L20 12Z"
+                fill="url(#gradient3)"
+              />
+              <defs>
+                <linearGradient id="gradient1" x1="3" y1="2" x2="37" y2="38">
+                  <stop offset="0%" stop-color="#667eea" />
+                  <stop offset="100%" stop-color="#764ba2" />
+                </linearGradient>
+                <linearGradient id="gradient2" x1="3" y1="2" x2="37" y2="38">
+                  <stop offset="0%" stop-color="#f093fb" />
+                  <stop offset="100%" stop-color="#4cc9f0" />
+                </linearGradient>
+                <linearGradient id="gradient3" x1="12" y1="12" x2="28" y2="32">
+                  <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3" />
+                  <stop offset="100%" stop-color="#ffffff" stop-opacity="0.1" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <span class="logo-text">Abdullahi</span>
+        </a>
+
+        <!-- Desktop Navigation Menu -->
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Mobile Menu Toggle (Hamburger) -->
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <!-- Greeting -->
+        <p class="greeting">👋 Hello, I'm</p>
+
+        <!-- Your Name -->
+        <h1 class="name">Abdullahi Mohamed Muhumed</h1>
+
+        <!-- Your Title -->
+        <h2 class="title">Full-Stack Developer</h2>
+
+        <!-- Short Description -->
+        <p class="description">
+          I specialize in building responsive, user-friendly web applications.
+          Passionate about solving real-world problems through clean code and
+          creating digital solutions that help businesses grow.
+        </p>
+
+        <!-- Call-to-Action Buttons -->
+        <div class="buttons">
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="about" id="about">
+      <div class="about-container">
+        <!-- Section Title -->
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Get to know me better</p>
+
+        <!-- About Content -->
+        <div class="about-content">
+          <!-- Left Side - Your Story -->
+          <div class="about-text">
+            <h3>Full-Stack Developer from Nairobi, Kenya</h3>
+            <p>
+              I'm Abdullahi Mohamed Muhumed, a passionate full-stack developer
+              based in Nairobi. I graduated from
+              <strong>Moringa School's Software Engineering Bootcamp</strong> in
+              July 2025, where I gained intensive training in both frontend and
+              backend development.
+            </p>
+            <p>
+              My journey into tech is driven by a desire to create meaningful
+              digital solutions that solve real-world problems. I believe in
+              writing clean, efficient code and building applications that not
+              only work well but also provide excellent user experiences.
+            </p>
+            <p>
+              I'm currently seeking opportunities to apply my skills in a
+              professional environment, whether as a junior developer or through
+              freelance projects. I'm a quick learner, dedicated problem-solver,
+              and always eager to expand my technical knowledge.
+            </p>
+
+            <!-- Call to Action Buttons -->
+            <div class="about-cta">
+              <a href="#contact" class="btn btn-primary">Get In Touch</a>
+              <a href="#projects" class="btn btn-secondary">View My Work</a>
+            </div>
+          </div>
+
+          <!-- Right Side - Stats & Profile -->
+          <div class="about-stats">
+            <!-- Profile Card -->
+            <div class="stat-card profile-card">
+              <div class="profile-photo">
+                <img
+                  src="/image/profile.jpg"
+                  alt="Abdullahi Mohamed Muhumed - Full Stack Developer"
+                />
+              </div>
+              <h4>Abdullahi Mohamed</h4>
+              <p>Full-Stack Developer</p>
+              <p class="location">📍 Nairobi, Kenya</p>
+            </div>
+
+            <!-- Stats Card 1 -->
+            <div class="stat-card">
+              <div class="stat-number">6+</div>
+              <div class="stat-label">Months of Intensive Training</div>
+            </div>
+
+            <!-- Stats Card 2 -->
+            <div class="stat-card">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">Technologies Mastered</div>
+            </div>
+
+            <!-- Stats Card 3 -->
+            <div class="stat-card">
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Commitment to Excellence</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section class="skills" id="skills">
+      <div class="skills-container">
+        <!-- Section Title -->
+        <h2 class="section-title">My Skills</h2>
+        <p class="section-subtitle">Technologies I work with</p>
+
+        <!-- Skills Content -->
+        <div class="skills-content">
+          <!-- Frontend Skills -->
+          <div class="skill-category">
+            <h3 class="category-title">Frontend Development</h3>
+            <div class="skill-grid">
+              <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h4>HTML5</h4>
+                <p>Semantic markup & structure</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h4>CSS3</h4>
+                <p>Modern styling & animations</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-icon">⚡</div>
+                <h4>JavaScript</h4>
+                <p>Interactive functionality</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-icon">⚛️</div>
+                <h4>React</h4>
+                <p>Component-based UI</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-icon">💨</div>
+                <h4>Tailwind CSS</h4>
+                <p>Utility-first styling</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend Skills -->
+          <div class="skill-category">
+            <h3 class="category-title">Backend Development</h3>
+            <div class="skill-grid">
+              <div class="skill-card">
+                <div class="skill-icon">🐍</div>
+                <h4>Python</h4>
+                <p>Backend logic & scripting</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-icon">🌶️</div>
+                <h4>Flask</h4>
+                <p>Web framework</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-icon">🗄️</div>
+                <h4>SQL</h4>
+                <p>Database management</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-icon">📗</div>
+                <h4>Node.js</h4>
+                <p>JavaScript runtime</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools & Platforms -->
+          <div class="skill-category">
+            <h3 class="category-title">Tools & Platforms</h3>
+            <div class="skill-grid">
+              <div class="skill-card">
+                <div class="skill-icon">🔧</div>
+                <h4>Git</h4>
+                <p>Version control</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-icon">🐙</div>
+                <h4>GitHub</h4>
+                <p>Code collaboration</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h4>VS Code</h4>
+                <p>Code editor</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-icon">🚀</div>
+                <h4>Vercel</h4>
+                <p>Deployment platform</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section class="projects" id="projects">
+      <div class="projects-container">
+        <!-- Section Title -->
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">Recent work I've built</p>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">🛒</div>
+            </div>
+            <div class="project-content">
+              <h3>E-Commerce Platform</h3>
+              <p>
+                A fully functional online shopping platform with product
+                listings, shopping cart, and checkout system.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">SQL</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn btn-primary">Live Demo</a>
+                <a href="#" class="project-btn btn-secondary">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">✅</div>
+            </div>
+            <div class="project-content">
+              <h3>Task Management App</h3>
+              <p>
+                Modern todo application with drag-and-drop functionality,
+                categories, and deadline tracking.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn btn-primary">Live Demo</a>
+                <a href="#" class="project-btn btn-secondary">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">🌤️</div>
+            </div>
+            <div class="project-content">
+              <h3>Weather Dashboard</h3>
+              <p>
+                Real-time weather application showing current conditions,
+                forecasts, and weather maps using API integration.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">API</span>
+                <span class="tech-tag">CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn btn-primary">Live Demo</a>
+                <a href="#" class="project-btn btn-secondary">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">💼</div>
+            </div>
+            <div class="project-content">
+              <h3>Developer Portfolio</h3>
+              <p>
+                Professional portfolio website showcasing skills, projects, and
+                contact information with modern design.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-btn btn-primary">Live Demo</a>
+                <a href="#" class="project-btn btn-secondary">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <!-- Section Title -->
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Let's work together</p>
+
+        <!-- Contact Content -->
+        <div class="contact-content">
+          <!-- Left Side - Contact Info -->
+          <div class="contact-info">
+            <h3>Let's Talk</h3>
+            <p>
+              I'm currently looking for new opportunities. Whether you have a
+              question or just want to say hi, I'll do my best to get back to
+              you!
+            </p>
+
+            <div class="contact-details">
+              <!-- Email -->
+              <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div class="contact-text">
+                  <h4>Email</h4>
+                  <a href="mailto:amohakaka@gmail.com">amohakaka@gmail.com</a>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="contact-item">
+                <div class="contact-icon">📱</div>
+                <div class="contact-text">
+                  <h4>Phone</h4>
+                  <a href="tel:+254799363883">+254 799 363 883</a>
+                </div>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-text">
+                  <h4>Location</h4>
+                  <p>Eastleigh, Nairobi, Kenya</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links">
+              <a
+                href="https://github.com/Damadel"
+                target="_blank"
+                class="social-link"
+                title="GitHub"
+              >
+                <span class="social-icon">🐙</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/abdullahi-mohamed-muhumed--muhumed/"
+                target="_blank"
+                class="social-link"
+                title="LinkedIn"
+              >
+                <span class="social-icon">💼</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Side - Contact Form -->
+          <div class="contact-form-container">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="John Doe"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="john@example.com"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  required
+                  placeholder="Project Inquiry"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                  placeholder="Your message here..."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                <span>Send Message</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2026 Abdullahi Mohamed Muhumed. All rights reserved.</p>
+        <p>Built with 💜 using HTML, CSS & JavaScript</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
